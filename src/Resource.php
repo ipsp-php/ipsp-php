@@ -37,6 +37,7 @@ class Resource {
         if(!empty($this->defaultParams))
             $this->setParams($this->defaultParams);
     }
+
     protected function getSignature($params=array()){
         $params = array_filter($params,'strlen');
         ksort($params);
@@ -45,20 +46,24 @@ class Resource {
         $params = join('|',$params);
         return(sha1($params));
     }
+
     protected function parseJson( $json = '' ){
         $data = json_decode($json,TRUE);
         return $data['response'];
     }
+
     protected function parseXml( $xml = '' ){
         $xml = new XmlData($xml);
         $data = $xml->xmlToArray();
         return $data;
     }
+
     protected function parseForm($query=''){
         $data = array();
         parse_str($query, $data);
         return $data;
     }
+
     protected function parseRespose( $data ){
         $callback = $this->parser[$this->format];
         return call_user_func(array($this,$callback),$data);

@@ -17,6 +17,7 @@ class XmlData extends SimpleXMLElement{
             }
         }
     }
+
     public function xmlToArray(){
         $result   = array();
         $children = $this->children();
@@ -28,4 +29,5 @@ class XmlData extends SimpleXMLElement{
         }
         return $result;
     }
+
 }
