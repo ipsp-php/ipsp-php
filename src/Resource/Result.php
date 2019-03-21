@@ -6,7 +6,7 @@ use IpspPhp\Resource;
 
 class Result extends Resource
 {
-    public function call( $data = NULL ){
+    public function call( array $params = array() ){
         if( empty( $data ) )
         {
             $this->parseResponseData();
