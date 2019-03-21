@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1553174112">
+  <project timestamp="1553174112">
+    <package name="IpspPhp">
+      <file name="/home/stepan/www/ipsp/src/Api.php">
+        <class name="IpspPhp\Api" namespace="IpspPhp">
+          <metrics complexity="14" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="16" elements="26" coveredelements="22"/>
+        </class>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="16" type="method" name="call" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="method" name="setParam" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="27" type="method" name="getParam" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="31" type="method" name="hasAcsData" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="35" type="method" name="getCurrentUrl" visibility="public" complexity="5" crap="5" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="49" type="method" name="hasResponseData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <metrics loc="69" ncloc="57" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="16" elements="26" coveredelements="22"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Client.php">
+        <class name="IpspPhp\Client" namespace="IpspPhp">
+          <metrics complexity="11" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="28" coveredelements="28"/>
+        </class>
+        <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="16" type="stmt" count="6"/>
+        <line num="17" type="stmt" count="5"/>
+        <line num="18" type="stmt" count="4"/>
+        <line num="19" type="stmt" count="3"/>
+        <line num="23" type="method" name="setId" visibility="public" complexity="2" crap="2" count="8"/>
+        <line num="25" type="stmt" count="8"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="7"/>
+        <line num="28" type="stmt" count="7"/>
+        <line num="32" type="method" name="setPassword" visibility="public" complexity="2" crap="2" count="6"/>
+        <line num="34" type="stmt" count="6"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="42" type="method" name="setUrl" visibility="public" complexity="2" crap="2" count="4"/>
+        <line num="44" type="stmt" count="4"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="48" type="method" name="getUrlFormat" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="49" type="stmt" count="5"/>
+        <line num="54" type="method" name="getId" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="55" type="stmt" count="7"/>
+        <line num="60" type="method" name="getPassword" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="61" type="stmt" count="7"/>
+        <line num="66" type="method" name="getUrl" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="67" type="stmt" count="6"/>
+        <metrics loc="69" ncloc="46" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="28" coveredelements="28"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Curl.php">
+        <class name="IpspPhp\Curl" namespace="IpspPhp">
+          <metrics complexity="25" methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="61" coveredstatements="57" elements="72" coveredelements="64"/>
+        </class>
+        <line num="25" type="method" name="__construct" complexity="2" crap="2.15" count="3"/>
+        <line num="27" type="stmt" count="3"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="31" type="method" name="post" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="33" type="stmt" count="5"/>
+        <line num="34" type="stmt" count="5"/>
+        <line num="35" type="stmt" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="38" type="stmt" count="5"/>
+        <line num="40" type="method" name="buildQuery" visibility="public" complexity="2" crap="2.15" count="5"/>
+        <line num="41" type="stmt" count="5"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="5"/>
+        <line num="46" type="method" name="http_header" visibility="public" complexity="2" crap="2" count="6"/>
+        <line num="48" type="stmt" count="6"/>
+        <line num="49" type="stmt" count="6"/>
+        <line num="52" type="method" name="http_method" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="54" type="stmt" count="5"/>
+        <line num="55" type="stmt" count="5"/>
+        <line num="58" type="method" name="options" visibility="public" complexity="2" crap="2.06" count="6"/>
+        <line num="60" type="stmt" count="6"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="6"/>
+        <line num="63" type="stmt" count="6"/>
+        <line num="66" type="method" name="option" visibility="public" complexity="3" crap="3.14" count="6"/>
+        <line num="68" type="stmt" count="6"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="6"/>
+        <line num="71" type="stmt" count="6"/>
+        <line num="74" type="method" name="create" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="76" type="stmt" count="6"/>
+        <line num="77" type="stmt" count="6"/>
+        <line num="78" type="stmt" count="6"/>
+        <line num="81" type="method" name="execute" visibility="public" complexity="9" crap="9" count="6"/>
+        <line num="83" type="stmt" count="6"/>
+        <line num="85" type="stmt" count="6"/>
+        <line num="87" type="stmt" count="6"/>
+        <line num="89" type="stmt" count="6"/>
+        <line num="91" type="stmt" count="6"/>
+        <line num="93" type="stmt" count="6"/>
+        <line num="95" type="stmt" count="6"/>
+        <line num="97" type="stmt" count="6"/>
+        <line num="99" type="stmt" count="6"/>
+        <line num="102" type="stmt" count="6"/>
+        <line num="104" type="stmt" count="6"/>
+        <line num="106" type="stmt" count="6"/>
+        <line num="107" type="stmt" count="6"/>
+        <line num="108" type="stmt" count="6"/>
+        <line num="109" type="stmt" count="6"/>
+        <line num="111" type="stmt" count="2"/>
+        <line num="112" type="stmt" count="2"/>
+        <line num="113" type="stmt" count="2"/>
+        <line num="114" type="stmt" count="2"/>
+        <line num="115" type="stmt" count="2"/>
+        <line num="116" type="stmt" count="2"/>
+        <line num="117" type="stmt" count="2"/>
+        <line num="121" type="stmt" count="4"/>
+        <line num="122" type="stmt" count="4"/>
+        <line num="123" type="stmt" count="4"/>
+        <line num="124" type="stmt" count="4"/>
+        <line num="128" type="method" name="is_enabled" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="130" type="stmt" count="3"/>
+        <line num="133" type="method" name="set_defaults" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="135" type="stmt" count="6"/>
+        <line num="136" type="stmt" count="6"/>
+        <line num="137" type="stmt" count="6"/>
+        <line num="138" type="stmt" count="6"/>
+        <line num="139" type="stmt" count="6"/>
+        <line num="140" type="stmt" count="6"/>
+        <line num="141" type="stmt" count="6"/>
+        <metrics loc="143" ncloc="127" classes="1" methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="61" coveredstatements="57" elements="72" coveredelements="64"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Error.php">
+        <class name="IpspPhp\Error" namespace="IpspPhp">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Request.php">
+        <class name="IpspPhp\Request" namespace="IpspPhp">
+          <metrics complexity="11" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="27" elements="36" coveredelements="36"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="14" type="stmt" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="method" name="setFormat" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="17" type="stmt" count="5"/>
+        <line num="18" type="stmt" count="5"/>
+        <line num="20" type="method" name="getFormat" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="23" type="method" name="getContentType" visibility="private" complexity="1" crap="1" count="6"/>
+        <line num="24" type="stmt" count="6"/>
+        <line num="25" type="stmt" count="6"/>
+        <line num="27" type="method" name="getParamsQuery" visibility="private" complexity="2" crap="2" count="6"/>
+        <line num="28" type="stmt" count="6"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="6"/>
+        <line num="32" type="method" name="getContentTypes" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="35" type="method" name="getContentLength" visibility="private" complexity="1" crap="1" count="6"/>
+        <line num="36" type="stmt" count="6"/>
+        <line num="38" type="method" name="doPost" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="39" type="stmt" count="5"/>
+        <line num="40" type="stmt" count="5"/>
+        <line num="41" type="stmt" count="5"/>
+        <line num="42" type="stmt" count="5"/>
+        <line num="43" type="stmt" count="5"/>
+        <line num="44" type="stmt" count="5"/>
+        <line num="45" type="stmt" count="5"/>
+        <line num="46" type="stmt" count="5"/>
+        <line num="48" type="method" name="doGet" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <metrics loc="57" ncloc="57" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="27" elements="36" coveredelements="36"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource.php">
+        <class name="IpspPhp\Resource" namespace="IpspPhp">
+          <metrics complexity="30" methods="24" coveredmethods="23" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="62" elements="87" coveredelements="85"/>
+        </class>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="3" crap="3.04" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="method" name="getSignature" visibility="protected" complexity="1" crap="1" count="6"/>
+        <line num="41" type="stmt" count="6"/>
+        <line num="42" type="stmt" count="6"/>
+        <line num="43" type="stmt" count="6"/>
+        <line num="44" type="stmt" count="6"/>
+        <line num="45" type="stmt" count="6"/>
+        <line num="46" type="stmt" count="6"/>
+        <line num="48" type="method" name="parseJson" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="method" name="parseXml" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="57" type="method" name="parseForm" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="62" type="method" name="parseRespose" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="63" type="stmt" count="4"/>
+        <line num="64" type="stmt" count="4"/>
+        <line num="66" type="method" name="jsonParams" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="71" type="method" name="formParams" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="74" type="method" name="xmlParams" visibility="private" complexity="1" crap="1" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="79" type="method" name="buildParams" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="80" type="stmt" count="4"/>
+        <line num="82" type="method" name="setClient" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="86" type="stmt" count="6"/>
+        <line num="87" type="stmt" count="6"/>
+        <line num="89" type="method" name="setPath" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="90" type="stmt" count="4"/>
+        <line num="91" type="stmt" count="4"/>
+        <line num="93" type="method" name="setFormat" visibility="public" complexity="2" crap="2" count="7"/>
+        <line num="94" type="stmt" count="7"/>
+        <line num="95" type="stmt" count="6"/>
+        <line num="96" type="stmt" count="6"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="102" type="method" name="getFormat" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="103" type="stmt" count="5"/>
+        <line num="105" type="method" name="isValidParam" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="106" type="stmt" count="2"/>
+        <line num="108" type="method" name="setParams" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="109" type="stmt" count="5"/>
+        <line num="110" type="stmt" count="5"/>
+        <line num="112" type="stmt" count="5"/>
+        <line num="114" type="method" name="setParam" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="116" type="stmt" count="1"/>
+        <line num="118" type="stmt" count="1"/>
+        <line num="120" type="method" name="getParams" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="121" type="stmt" count="6"/>
+        <line num="122" type="stmt" count="6"/>
+        <line num="123" type="stmt" count="6"/>
+        <line num="124" type="stmt" count="6"/>
+        <line num="126" type="method" name="getParam" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="127" type="stmt" count="3"/>
+        <line num="129" type="method" name="getUrl" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="130" type="stmt" count="5"/>
+        <line num="132" type="method" name="call" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="133" type="stmt" count="4"/>
+        <line num="134" type="stmt" count="4"/>
+        <line num="135" type="stmt" count="4"/>
+        <line num="136" type="stmt" count="4"/>
+        <line num="137" type="stmt" count="4"/>
+        <line num="138" type="stmt" count="4"/>
+        <line num="140" type="method" name="setResponse" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="141" type="stmt" count="4"/>
+        <line num="142" type="stmt" count="4"/>
+        <line num="143" type="method" name="getResponse" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="144" type="stmt" count="4"/>
+        <metrics loc="145" ncloc="142" classes="1" methods="24" coveredmethods="23" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="62" elements="87" coveredelements="85"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Response.php">
+        <class name="IpspPhp\Response" namespace="IpspPhp">
+          <metrics complexity="13" methods="11" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="9" elements="26" coveredelements="17"/>
+        </class>
+        <line num="7" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="8" type="stmt" count="7"/>
+        <line num="9" type="stmt" count="7"/>
+        <line num="10" type="method" name="__get" visibility="public" complexity="2" crap="2" count="6"/>
+        <line num="11" type="stmt" count="6"/>
+        <line num="13" type="method" name="__toString" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="method" name="getData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="19" type="method" name="redirectTo" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="method" name="isSuccess" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="27" type="method" name="isFailure" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="30" type="method" name="getErrorCode" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="31" type="stmt" count="5"/>
+        <line num="33" type="method" name="getErrorMessage" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="36" type="method" name="getCheckoutUrl" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="method" name="redirectToCheckout" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <metrics loc="41" ncloc="41" classes="1" methods="11" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="9" elements="26" coveredelements="17"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/XmlData.php">
+        <class name="IpspPhp\XmlData" namespace="IpspPhp">
+          <metrics complexity="7" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="16" coveredelements="16"/>
+        </class>
+        <line num="9" type="method" name="arrayToXml" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="10" type="stmt" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="12" type="stmt" count="2"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="method" name="xmlToArray" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <metrics loc="30" ncloc="30" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="16" coveredelements="16"/>
+      </file>
+    </package>
+    <package name="IpspPhp\Resource">
+      <file name="/home/stepan/www/ipsp/src/Resource/Capture.php">
+        <class name="IpspPhp\Resource\Capture" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="30" ncloc="30" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Checkout.php">
+        <class name="IpspPhp\Resource\Checkout" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="34" ncloc="34" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/P2pcredit.php">
+        <class name="IpspPhp\Resource\P2pcredit" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="52" ncloc="52" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Pcidss.php">
+        <class name="IpspPhp\Resource\Pcidss" namespace="IpspPhp\Resource">
+          <metrics complexity="3" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="61" ncloc="57" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/PcidssConfirm.php">
+        <class name="IpspPhp\Resource\PcidssConfirm" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="35" ncloc="35" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Recurring.php">
+        <class name="IpspPhp\Resource\Recurring" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="41" ncloc="41" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Reports.php">
+        <class name="IpspPhp\Resource\Reports" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="35" ncloc="35" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Result.php">
+        <class name="IpspPhp\Resource\Result" namespace="IpspPhp\Resource">
+          <metrics complexity="8" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="0" elements="27" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="call" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="method" name="parseResponseData" visibility="private" complexity="2" crap="6" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="method" name="validResponse" visibility="public" complexity="4" crap="20" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="0" elements="27" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Reverse.php">
+        <class name="IpspPhp\Resource\Reverse" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="37" ncloc="37" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Status.php">
+        <class name="IpspPhp\Resource\Status" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="26" ncloc="26" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/stepan/www/ipsp/src/Resource/Verification.php">
+        <class name="IpspPhp\Resource\Verification" namespace="IpspPhp\Resource">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="46" ncloc="46" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="19" loc="1000" ncloc="942" classes="8" methods="75" coveredmethods="63" conditionals="0" coveredconditionals="0" statements="243" coveredstatements="205" elements="318" coveredelements="268"/>
+  </project>
+</coverage>
