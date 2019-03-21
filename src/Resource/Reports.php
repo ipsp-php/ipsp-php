@@ -5,9 +5,7 @@ namespace IpspPhp\Resource;
 use IpspPhp\Resource;
 
 class Reports extends Resource {
-
     protected $path   = '/reports';
-
     protected $fields = array(
         'merchant_id'=>array(
             'type'    => 'string',

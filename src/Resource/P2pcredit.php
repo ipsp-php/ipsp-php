@@ -6,11 +6,8 @@ use IpspPhp\Resource;
 
 class P2pcredit extends Resource
 {
-
     protected $path = '/p2pcredit';
-
     protected $defaultParams = array();
-
     protected $fields = array(
         'merchant_id' => array(
             'type' => 'string',
@@ -49,5 +46,4 @@ class P2pcredit extends Resource
             'required' => FALSE
         )
     );
-
 }

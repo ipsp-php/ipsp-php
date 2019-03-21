@@ -5,9 +5,7 @@ namespace IpspPhp\Resource;
 use IpspPhp\Resource;
 
 class Pcidss extends Resource {
-
     protected $path = '/3dsecure_step1';
-
     protected $fields = array(
         'order_id' => array(
             'type' => 'string',
@@ -38,7 +36,6 @@ class Pcidss extends Resource {
             'required' => TRUE
         )
     );
-
     /**
      * @return bool
      * @codeCoverageIgnore
@@ -58,5 +55,4 @@ class Pcidss extends Resource {
         $html .= "</body></html>";
         echo($html);
     }
-
 }

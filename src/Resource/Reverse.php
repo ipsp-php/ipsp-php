@@ -5,9 +5,7 @@ use IpspPhp\Resource;
 
 class Reverse extends Resource
 {
-
     protected $path = '/reverse/order_id';
-
     protected $fields = array(
         'merchant_id' => array(
             'type' => 'string',
