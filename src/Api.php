@@ -50,21 +50,4 @@ class Api
     {
         return isset($_POST['response_status']);
     }
-    /**
-     * @codeCoverageIgnore
-     * @param $callback
-     */
-    public function success($callback)
-    {
-        // TODO: implement success callback
-    }
-
-    /**
-     * @codeCoverageIgnore
-     * @param $callback
-     */
-    public function failure($callback)
-    {
-        // TODO: implement failure callback
-    }
 }

@@ -112,13 +112,13 @@ $ipsp   = new IpspPhp\Api( $client );
 <?php
 require_once('path/to/init.php');
 $checkout = new IpspPhp\Resource\Checkout();
-$data = $ipsp->call($checkout,array(
+$data = $ipsp->call($checkout,[
   'order_id'    => 'orderid-111222333',
   'order_desc'  => 'Simple checkout page',
   'currency'    => $ipsp::USD ,
   'amount'      => 2000, // 20 USD
   'response_url'=> sprintf('http://shop.example.com/result.php')
-))->getResponse();
+])->getResponse();
 // redirect to checkout page
 $data->redirectToCheckout();
 ```
