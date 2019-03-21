@@ -121,11 +121,7 @@ class Resource {
         return $this;
     }
     public function getParams(){
-        $params = $this->getSignature($this->params);
-        echo '<pre>';
-        print_r($params);
-        echo '</pre>';
-        return $params;
+        return $this->getSignature($this->params);
     }
     public function getParam($key){
         return isset($this->params[$key]) ? $this->params[$key] : NULL;
