@@ -39,12 +39,10 @@ class Resource {
     }
 
     protected function getSignature($params=array()){
-        $params = array_filter($params,'strlen');
-        ksort($params);
-        $params = array_values($params);
-        array_unshift( $params , $this->client->getPassword() );
-        $params = join('|',$params);
-        return(sha1($params));
+        $signature = new Signature();
+        $signature->merchant($this->client->getId());
+        $signature->password($this->client->getPassword());
+        return $signature->sign($params);
     }
 
     protected function parseJson( $json = '' ){
@@ -123,9 +121,10 @@ class Resource {
         return $this;
     }
     public function getParams(){
-        $params = $this->params;
-        $params['merchant_id'] = $this->client->getId();
-        $params['signature']   = $this->getSignature($params);
+        $params = $this->getSignature($this->params);
+        echo '<pre>';
+        print_r($params);
+        echo '</pre>';
         return $params;
     }
     public function getParam($key){

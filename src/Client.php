@@ -35,7 +35,6 @@ class Client {
             throw new \InvalidArgumentException('Merchant password not set');
         $this->password = $password;
     }
-
     /**
      * @param string $domain
      */

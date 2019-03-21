@@ -4,7 +4,6 @@ namespace IpspPhp;
 
 class Api
 {
-
     private $client;
     private $params = array();
     public function __construct(Client $client)
