@@ -9,8 +9,6 @@ popular CMS modules for fast integration in existing infrastructure.
 [![Downloads](https://img.shields.io/packagist/dt/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
 [![Licence](https://img.shields.io/github/license/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
 
----
-
 [![Official website](https://img.shields.io/badge/official-website-green.svg)](https://ipsp-php.com/)
 [![Documentation](https://img.shields.io/badge/sdk-documentation-orange.svg)](https://ipsp-php.com/docs/)
 [![API Methods](https://img.shields.io/badge/api-methods-blue.svg)](https://ipsp-php.com/docs/api-methods/)
