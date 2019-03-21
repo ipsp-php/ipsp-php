@@ -6,12 +6,12 @@ use IpspPhp\Resource;
 
 class Result extends Resource
 {
-    public function call( array $params = array() ){
-        if( empty( $data ) )
+    public function call(array $params = array() ){
+        if( empty( $params ) )
         {
             $this->parseResponseData();
         } else{
-            $this->setResponse($data);
+            $this->setResponse($params);
         }
         return $this;
     }
@@ -19,6 +19,7 @@ class Result extends Resource
        $body = file_get_contents('php://input');
        $types = $this->request->getContentTypes();
        $types = array_flip($types);
+       print_r($_SERVER);
        $type = explode(';',$_SERVER['CONTENT_TYPE']);
        $type = trim($type[0]);
        if(isset($types[$type])){

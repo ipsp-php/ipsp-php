@@ -2,8 +2,6 @@
 
 namespace IpspPhp;
 
-use \ReflectionClass;
-
 class Api
 {
 
