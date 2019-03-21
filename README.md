@@ -1,30 +1,21 @@
-<h1 align="center">
-  <a href="https://ipsp-php.com"><img src="https://raw.githubusercontent.com/kosatyi/ipsp-php/gh-pages/assets/images/brand.png" alt="IPSP PHP (SDK)" width="201" height="193"></a>
-  <br>
-  IPSP PHP SDK
-  <br>
-</h1>
+# IPSP PHP SDK
 
-<h4 align="center">
 Flexible software development kit that covers e-commerce for businesses of all types and support
 popular CMS modules for fast integration in existing infrastructure.
-</h4>
 
-<p align="center">
-<a href="https://packagist.org/packages/ipsp-php/ipsp-php"><img src="https://poser.pugx.org/ipsp-php/ipsp-php/version" /></a>
-<a href="https://travis-ci.org/ipsp-php/ipsp-php"><img src="https://img.shields.io/travis/ipsp-php/ipsp-php.svg" /></a>
-<a href="https://coveralls.io/github/ipsp-php/ipsp-php"><img src="https://img.shields.io/coveralls/ipsp-php/ipsp-php/master.svg" /></a>
-<a href="https://packagist.org/packages/ipsp-php/ipsp-php"><img src="https://poser.pugx.org/ipsp-php/ipsp-php/downloads"/></a>
-<a href="https://packagist.org/packages/ipsp-php/ipsp-php"><img src="https://poser.pugx.org/ipsp-php/ipsp-php/license" /></a>
-</p>
-<p align="center">
-<a href="https://ipsp-php.com/"><img src="https://img.shields.io/badge/official-website-green.svg" /></a>
-<a href="https://ipsp-php.com/docs/"><img src="https://img.shields.io/badge/sdk-documentation-orange.svg" /></a>
-<a href="https://ipsp-php.com/docs/api-methods/"><img src="https://img.shields.io/badge/api-methods-blue.svg" /></a>
-</p>
-<p align="center">
-<a href="https://ipsp-php.com"><img src="https://i.imgur.com/7pZYzfV.png" alt="Checkout Page Example PHP (SDK)"></a>
-</p>
+[![Version](https://img.shields.io/packagist/v/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
+[![Build](https://img.shields.io/travis/ipsp-php/ipsp-php.svg)](https://travis-ci.org/ipsp-php/ipsp-php)
+[![Coverage Status](https://coveralls.io/repos/github/ipsp-php/ipsp-php/badge.svg?branch=master)](https://coveralls.io/github/ipsp-php/ipsp-php)
+[![Downloads](https://img.shields.io/packagist/dt/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
+[![Licence](https://img.shields.io/github/license/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
+
+---
+
+[![Official website](https://img.shields.io/badge/official-website-green.svg)](https://ipsp-php.com/)
+[![Documentation](https://img.shields.io/badge/sdk-documentation-orange.svg)](https://ipsp-php.com/docs/)
+[![API Methods](https://img.shields.io/badge/api-methods-blue.svg)](https://ipsp-php.com/docs/api-methods/)
+
+[![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com)
 
 ## Installation
 
