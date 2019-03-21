@@ -1,0 +1,26 @@
+{
+  "name": "ipsp-php/ipsp-php",
+  "description": "Payment Service Provider SDK",
+  "homepage": "https://ipsp-php.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stepan Kosatyi",
+      "email": "stepan@kosatyi.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev":{
+    "phpunit/phpunit":"6.5.*",
+    "php-coveralls/php-coveralls":"2.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "IpspPhp\\": "src"
+    }
+  }
+}
