@@ -22,7 +22,7 @@ popular CMS modules for fast integration in existing infrastructure.
 [![Documentation](https://img.shields.io/badge/sdk-documentation-orange.svg)](https://ipsp-php.com/docs/)
 [![API Methods](https://img.shields.io/badge/api-methods-blue.svg)](https://ipsp-php.com/docs/api-methods/)
 
-[![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com){: .text-center}
+[![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com)
 
 ## Installation
 
