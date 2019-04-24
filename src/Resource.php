@@ -3,21 +3,53 @@
 namespace IpspPhp;
 
 class Resource {
-
+    /**
+     * @var string
+     */
     protected $method = 'POST';
+    /**
+     * @var string
+     */
     protected $defaultFormat = 'json';
+    /**
+     * @var string
+     */
     protected $format = 'json';
+    /**
+     * @var
+     */
     protected $path;
+    /**
+     * @var array
+     */
     protected $fields = array();
+    /**
+     * @var array
+     */
     protected $defaultParams = array();
+    /**
+     * @var Request
+     */
     protected $request;
+    /**
+     * @var Response
+     */
     protected $response;
+    /**
+     * @var array
+     */
     protected $types    = array();
+    /**
+     * @var array
+     */
     protected $formatter	= array(
         'json' => 'jsonParams',
         'xml'  => 'xmlParams',
         'form' => 'formParams'
     );
+    /**
+     * @var array
+     */
     protected $parser	= array(
         'json' => 'parseJson',
         'xml'  => 'parseXml',
@@ -27,9 +59,14 @@ class Resource {
      * @var Client
      */
     private $client;
-
+    /**
+     * @var array
+     */
     private $params = array();
 
+    /**
+     * Resource constructor.
+     */
     public function __construct(){
         $this->request  = new Request();
         if(!empty($this->format))
@@ -86,7 +123,6 @@ class Resource {
         $this->client = $client;
     }
     public function isValid($params){
-        $fields = $this->fields;
         return true;
     }
     public function setPath($path){
@@ -105,7 +141,9 @@ class Resource {
     public function getFormat(){
         return $this->format;
     }
-    public function isValidParam($key,$value){
+    public function isValidParam($key='',$value=''){
+        $key;
+        $value;
         return TRUE;
     }
     public function setParams(array $params){
@@ -129,6 +167,10 @@ class Resource {
     public function getUrl(){
         return sprintf('%s%s',$this->client->getUrl(),$this->path);
     }
+    /**
+     * @param array $params
+     * @return Resource $this
+     */
     public function call( array $params = array() ){
         $this->setParams( $params );
         $this->request->setFormat( $this->format );
@@ -137,9 +179,17 @@ class Resource {
         $this->setResponse($data);
         return $this;
     }
+    /**
+     * @param array $data
+     * @return $this
+     */
     public function setResponse($data=array()){
         $this->response = new Response($data);
+        return $this;
     }
+    /**
+     * @return Response
+     */
     public function getResponse(){
         return $this->response;
     }

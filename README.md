@@ -1,4 +1,13 @@
+
 # IPSP PHP SDK
+
+### Share links
+
+[![Share on Twitter](https://img.shields.io/badge/twitter-blue.svg?color=5ec0e8)](http://twitter.com/home?status=https://github.com/ipsp-php/ipsp-php)
+[![Share on Facebook](https://img.shields.io/badge/facebook-blue.svg?color=537bbd)](http://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://github.com/ipsp-php/ipsp-php&p[images][0]=&p[title]=Fondy payment provider SDK&p[summary]=)
+[![Share on LinkedIn](https://img.shields.io/badge/linkedin-blue.svg?color=11638d)](http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/ipsp-php/ipsp-php&title=Fondy payment provider SDK&summary=&source=)
+[![Share on Telegram](https://img.shields.io/badge/telegram-blue.svg?color=32afed)](https://t.me/share/url?url=https://github.com/ipsp-php/ipsp-php)
+
 
 Flexible software development kit that covers e-commerce for businesses of all types and support
 popular CMS modules for fast integration in existing infrastructure.
@@ -13,7 +22,7 @@ popular CMS modules for fast integration in existing infrastructure.
 [![Documentation](https://img.shields.io/badge/sdk-documentation-orange.svg)](https://ipsp-php.com/docs/)
 [![API Methods](https://img.shields.io/badge/api-methods-blue.svg)](https://ipsp-php.com/docs/api-methods/)
 
-[![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com)
+[![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com){: .text-center}
 
 ## Installation
 

@@ -10,11 +10,18 @@ class Api
     {
         $this->client = $client;
     }
+
+    /**
+     * @param Resource $resource
+     * @param array $params
+     * @return Resource
+     */
     public function call(Resource $resource, array $params = array())
     {
         $params = array_merge($this->params, $params);
         $resource->setClient($this->client);
-        return $resource->call($params);
+        $resource->call($params);
+        return $resource;
     }
     public function setParam($key = '', $value = '')
     {
